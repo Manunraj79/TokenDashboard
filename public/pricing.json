@@ -1,0 +1,11 @@
+[
+  { "model": "Fable 5", "inputPerMTok": 10.0, "outputPerMTok": 50.0, "note": "Mythos-class" },
+  { "model": "Opus 4.8", "inputPerMTok": 5.0, "outputPerMTok": 25.0, "note": "Current flagship" },
+  { "model": "Opus 4.7", "inputPerMTok": 5.0, "outputPerMTok": 25.0, "note": "Unverified" },
+  { "model": "Opus 4.6", "inputPerMTok": 5.0, "outputPerMTok": 25.0, "note": "Unverified" },
+  { "model": "Sonnet 5", "inputPerMTok": 2.0, "outputPerMTok": 10.0, "note": "Intro pricing through Aug 31, 2026 (std 3/15 after)" },
+  { "model": "Sonnet 4.6", "inputPerMTok": 3.0, "outputPerMTok": 15.0, "note": "" },
+  { "model": "Haiku 4.5", "inputPerMTok": 1.0, "outputPerMTok": 5.0, "note": "Lowest cost" },
+  { "model": "GPT-5.6 Sol", "inputPerMTok": 5.0, "outputPerMTok": 30.0, "note": "OpenAI flagship (short context)" },
+  { "model": "GPT-5.6 Luna", "inputPerMTok": 0.2, "outputPerMTok": 1.2, "note": "OpenAI low-cost tier (short context)" }
+]

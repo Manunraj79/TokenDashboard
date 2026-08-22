@@ -1,0 +1,23 @@
+Prompt Cost Estimator — opening the offline build
+===================================================
+
+If you copied this folder to OneDrive (or another cloud drive), avoid opening
+index.html from the OneDrive *website*. That preview runs inside Microsoft's
+viewer and often logs console warnings such as:
+
+  [Violation] Permissions policy violation: unload is not allowed in this document.
+
+Those messages come from the preview shell, not from this app's code. Scripts
+may also be blocked or behave oddly in that viewer.
+
+Recommended ways to open:
+
+1. OneDrive desktop sync: right-click the folder → "Always keep on this device",
+   then double-click Open-app.bat (or index.html → Open with → Chrome/Edge).
+
+2. Local copy: copy the whole folder to a normal folder (not cloud preview).
+
+3. Local server (from the project root): npm run preview
+
+Keep these files together:
+  index.html, pricing.js, pricing.json, assets/
